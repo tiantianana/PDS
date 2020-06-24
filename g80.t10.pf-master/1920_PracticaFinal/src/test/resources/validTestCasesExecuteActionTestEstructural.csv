@@ -1,0 +1,2 @@
+"./TestData/ExecuteActionTest/PE-RF5-V-47.json","Actuator","true", "Actuator pide Send Request to Actuator"
+"./TestData/ExecuteActionTest/PE-RF5-V-45.json","Sensor","true", "Cualquiera de los dos pide Check State"

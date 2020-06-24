@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="VerifyTokenTest" project="Transport4Future" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="transport.VerifyTokenTest" time="0.132" displayname="VerifyTokenTest" uniqueid="[engine:junit-jupiter]/[class:transport.VerifyTokenTest]">
+    <testcase name="tokenNotExpireTest" classname="transport.VerifyTokenTest" time="0.053" displayname="Prueba 2. Token not expire and granted" uniqueid="[engine:junit-jupiter]/[class:transport.VerifyTokenTest]/[method:tokenNotExpireTest()]"/>
+    <testcase name="tokenExpireTest" classname="transport.VerifyTokenTest" time="0.024" displayname="Prueba 3. Token expired and granted" uniqueid="[engine:junit-jupiter]/[class:transport.VerifyTokenTest]/[method:tokenExpireTest()]"/>
+    <testcase name="expiredTokenTest" classname="transport.VerifyTokenTest" time="0.015" displayname="Prueba 4. Token expired and not granted" uniqueid="[engine:junit-jupiter]/[class:transport.VerifyTokenTest]/[method:expiredTokenTest()]"/>
+    <testcase name="removeToken" classname="transport.VerifyTokenTest" time="0.002" displayname="removeToken()" uniqueid="[engine:junit-jupiter]/[class:transport.VerifyTokenTest]/[method:removeToken()]"/>
+    <testcase name="tokenWrongVerifyTest" classname="transport.VerifyTokenTest" time="0.005" displayname="Prueba 5. Token not found" uniqueid="[engine:junit-jupiter]/[class:transport.VerifyTokenTest]/[method:tokenWrongVerifyTest()]"/>
+    <testcase name="tokenNotGrantedTest" classname="transport.VerifyTokenTest" time="0.006" displayname="Prueba 1. Token not expire and not granted" uniqueid="[engine:junit-jupiter]/[class:transport.VerifyTokenTest]/[method:tokenNotGrantedTest()]"/>
+    <testcase name="tokenCorrect1Test" classname="transport.VerifyTokenTest" time="0.004" displayname="Prueba 2. Token not expire and granted" uniqueid="[engine:junit-jupiter]/[class:transport.VerifyTokenTest]/[method:tokenCorrect1Test()]"/>
+    <testcase name="tokenCorrect2Test" classname="transport.VerifyTokenTest" time="0.006" displayname="Prueba 2. Token not expire and granted" uniqueid="[engine:junit-jupiter]/[class:transport.VerifyTokenTest]/[method:tokenCorrect2Test()]"/>
+    <testcase name="iteracion1Test" classname="transport.VerifyTokenTest" time="0.006" displayname="Prueba 6. Iteracion 1 del for" uniqueid="[engine:junit-jupiter]/[class:transport.VerifyTokenTest]/[method:iteracion1Test()]"/>
+    <testcase name="iteracion2Test" classname="transport.VerifyTokenTest" time="0.011" displayname="Prueba 7. Iteracion 2 del for" uniqueid="[engine:junit-jupiter]/[class:transport.VerifyTokenTest]/[method:iteracion2Test()]"/>
+  </testsuite>
+</testrun>

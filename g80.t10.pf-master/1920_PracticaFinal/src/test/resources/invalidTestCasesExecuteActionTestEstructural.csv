@@ -1,0 +1,3 @@
+"./TestData/ExecuteActionTest/PE-RF5-NV-46.json","Actuator","La operación solicitada no puede ser realizada con el token adjuntado a la solicitud.", "Actuator pide Send Information from Sensor"
+"./TestData/ExecuteActionTest/PE-RF5-NV-44.json","Sensor","La operación solicitada no puede ser realizada con el token adjuntado a la solicitud.", "Sensor pide Send Request to Actuator"
+"./TestData/ExecuteActionTest/PE-RF5-NV-49.json","Sensor","El token que se quiere revocar no existe.", "El token Solicitado no existe"

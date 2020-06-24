@@ -1,0 +1,14 @@
+{
+"Device Name": "LIDAR",     
+"Device Name": "LIDAR",     
+"Type of Device":"Actuator",
+"Type of Device":"Actuator",      
+"Driver Version":"2020.03.01",
+"Driver Version":"2020.03.01",  
+"Support e-mail":"autonomous@vehicle.com",
+"Support e-mail":"autonomous@vehicle.com",
+"Serial Number":"3423432423",      
+"Serial Number":"3423432423",      
+"MAC Address":"AB:00:CD:34:45",
+"MAC Address":"AB:00:CD:34:45" 
+}

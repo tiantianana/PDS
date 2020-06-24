@@ -1,0 +1,25 @@
+void deposit(float amount)
+- [clase válida] Depositar una cantidad positiva
+- [clase inválida] Depositar una cantidad negativa
+- [clase inválida] Llamar al método con un parámetro de un tipo diferente de float (usar byte, short, int y long; el resto da error al compilar el código de pruebas)
+- [valor límite] Depositar una cantidad nula
+
+void withdraw(float amount)
+- [clase válida] Retirar una cantidad positiva menor que los fondos
+- [clase inválida] Retirar una cantidad mayor que los fondos
+- [clase inválida] Retirar una cantidad negativa
+- [clase inválida] Llamar al método con amount diferente de float (usar byte, short, int y long; el resto da error al compilar el código de pruebas)
+- [valor límite] Retirar una cantidad nula
+- [valor límite] Retirar todos los fondos
+
+void transferFunds(Account destination, float amount)
+- [clase válida] Transferir una cantidad positiva tal que la cuenta se quede con más fondos que la cantidad mínima
+- [clase inválida] Transferir una cantidad positiva tal que la cuenta se quede con menos fondos que la cantidad mínima (comprobar que salta la excepción y que los saldos no cambian)
+- [clase inválida] Transferir una cantidad negativa
+- [clase inválida] Llamar al método con amount diferente de float (usar byte, short, int y long; el resto da error al compilar el código de pruebas)
+- [valor límite] Transferir una cantidad nula
+- [valor límite] Transferir justo la cantidad máxima permitida
+- [valor límite] Transferir justo por encima de la cantidad máxima permitida
+- [caso especial] Llamar al método con destination a null
+- [caso especial] Transferir una cantidad positiva a la misma cuenta origen
+- [caja blanca] Se cumple con los dos primeros casos de caja negra
